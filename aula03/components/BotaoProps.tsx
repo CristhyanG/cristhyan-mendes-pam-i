@@ -1,6 +1,6 @@
 import React from 'react';
 import { Touchable } from 'react-native';
-import { TouchableOpacity, Text, StyleSheet} from 'react-native-gesture-handler';
+import { TouchableOpacity, Text, StyleSheet} from 'react-native';
 
 const BotaoProps = ({label, corFundo, onPress}) => {
     const botaoStyle = {
@@ -16,4 +16,4 @@ const BotaoProps = ({label, corFundo, onPress}) => {
 
 }; 
 
-export default BotaoPrProps;
+export default BotaoProps;
