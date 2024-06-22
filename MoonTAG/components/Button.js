@@ -21,9 +21,9 @@ if(theme === "primary"){
         </View>
     );
 } return(
-    <View style={[styles.buttonContainer]}>
-        <Pressable style={styles.button} onPres={()=> alert('Você apertou minhas bolas')}>
-            <Text style={styles.button}>{label}</Text>
+    <View style={styles.buttonContainer}>
+        <Pressable style={styles.button} onPress={()=> alert('Você apertou um botão')}>
+            <Text style={styles.buttonLabel}>{label}</Text>
         </Pressable>
     </View>
 );
@@ -33,7 +33,7 @@ if(theme === "primary"){
 const styles = StyleSheet.create({
     buttonContainer: {
         width: 320,
-        heigh:68,
+        height: 68,
         marginHorizontal: 20,
         alignItem: 'center',
         justifyContent: 'center',
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
         paddingRight: 8,
     },
     buttonLabel: {
-        color: ' #fff',
+        color: '#fff',
         fontSize: 16,
     },
 
